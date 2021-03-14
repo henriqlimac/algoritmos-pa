@@ -1,0 +1,28 @@
+Algoritmo "trocadevalores"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 14/03/2021
+Var
+// Seção de Declarações das variáveis 
+
+   x,y,z: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   a <- 100
+   b <- 300
+   
+   escreval("O valor de X é: ", x)
+   escreval("O valor de Y é: ", y)
+   
+   z <- x
+   x <- y
+   y <- z
+   
+   escreval("O valor de X é: ", x)
+   escreval("O valor de Y é: ", y)
+
+Fimalgoritmo
